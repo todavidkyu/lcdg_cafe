@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- Designined by La Café de Geilanna -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> La Café de Geilanna - A Delightful Cafe </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" href="images/web-l.png" type="image/png">
+	<link rel="shortcut icon" href="images/web-l.png" type="image/png">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .text {font-size: 11px}
+		}
+	</style>
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#"><img src="images/logo-b1.png" alt="" width="100" height="100"></a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Gallery</a></li>
+          <li><a href="#services">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://facebook.com/lcdg_cafe"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/lcdg_cafe"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/lcdg_cafe"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+   
+     <div class="text">
+       <div class="text-one">A Delightful Place,</div>
+       <div class="text-two">La Café de Geilanna</div>
+       <div class="text-three">A place to tell stories.</div>
+     </div>
+     <div class="button">
+       <button onclick="window.location.href='index.html#about';">learn more</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span><br><br><br>About the Cafe</span></div><br><br>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">"When you drink from that coffee mug, <br>I get to share that moment with you."</div>
+      <br><p>“La Café de Geilanna” is a coffee shop that serves espresso, latte, cappuccino, etc.. Some coffeehouses may serve cold drinks, such as iced coffee, iced tea, and other non-caffeinated beverages.</p><br>
+	  <p>The La Cafe de Geilanna is open in Westchase! We are excited to introduce our Coffee Shop. If you crave great coffee, you’ll love knowing that we provide a real alternative to chains with handcrafted coffee and espresso drinks, a full tea bar, and real food options. <br>Our Coffee shop delivers way beyond the traditional coffee shop favorites (although we think our homemade pastries are pretty good). We have traditional breakfast choices, including eggs, omelettes, pancakes, and plenty of healthy options (including gluten free, vegetarian, and vegan).  We will be having weekend specials, when we go all out to provide you with new options that are delicious and different. Finally,  we also serve a wide variety of salads,  sandwiches and flatbreads for lunch-lovers.</p><br><br>
+      <div class="button">
+        <button onclick="window.location.href='about.html';">View It's History</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Gallery Start -->
+<section class="skills" id="skills">
+		<div class="slideshow-container"><br><br><br>
+		<div class="mySlides fade">
+		  <img src="images/slide1.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/slide2.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/slide3.jpg" style="width:100%">
+		</div>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+</section>
+
+
+<!-- Menu Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span><br><br>Coffee</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Espresso</div>
+       <p>Cup Size:<br>Small - 70<br>Medium - 90<br>Large - 120</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Latte</div>
+       <p>Cup Size:<br>Small - 80<br>Medium - 95<br>Large - 140</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Americano</div>
+       <p>Cup Size:<br>Small - 60<br>Medium - 80<br>Large - 100</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Macchiato</div>
+       <p>Cup Size:<br>Small - 85<br>Medium - 95<br>Large - 145</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Mocha</div>
+       <p>Cup Size:<br>Small - 85<br>Medium - 95<br>Large - 145</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-coffee"></i>
+       </div>
+       <div class="topic">Cappucino</div>
+       <p>Cup Size:<br>Small - 85<br>Medium - 95<br>Large - 145</p>
+     </div>
+   </div>
+        <div class="title"><span><br><br>Beverages</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-mug-hot"></i>
+       </div>
+       <div class="topic">Tea</div>
+       <p>Cup Size:<br>Small - 60<br>Medium - 70<br>Large - 80</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-glass-whiskey"></i>
+       </div>
+       <div class="topic">Iced Tea</div>
+       <p>Cup Size:<br>Small - 40<br>Medium - 45<br>Large - 50</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-beer"></i>
+       </div>
+       <div class="topic">Soda</div>
+       <p>Cup Size:<br>Small - 40<br>Medium - 45<br>Large - 50</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-apple-alt"></i>
+       </div>
+       <div class="topic">Apple Juice</div>
+       <p>Cup Size:<br>Small - 45<br>Medium - 50<br>Large - 55</p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+	<div class="content">
+		<div class="title"><span><br><br>Location</span></div>
+		<div class="skills-details">
+			<div class="text">
+				<div class="topic">1F Uni Building, 10 Dane Drive, <br>Bungag Street, 404 Malate, Manila</div>
+				<br><br><p>You can visit the cafe in Malate, Manila and get a discount in your first visit.</p>
+			</div>
+		</div>
+   </div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15446.225130203107!2d120.98079623511414!3d14.567348405124966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca2a93680a1f%3A0xc7215c3e47a64f85!2sMalate%2C%20Manila%2C%201004%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1637828392525!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <div class="content">
+    <div class="title"><span>Contact Us</span></div>
+    <div class="text">
+		<h4>for inquires, you can email us at</h4>
+		<a href="#"><h2>inquire.cafe@lcdg.com</h2></a><br>
+		<h4>local hotline</h4>
+		<h2>(047)-222-9356 <br>(+63) 977 1122 5679</h2>
+		<div class="button">
+        <br><br><button onclick="window.location.href='https://fb.com';"><h4>Let's Chat</h4></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Kyu-Geilana Inc.</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
